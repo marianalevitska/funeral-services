@@ -1,0 +1,82 @@
+:root {
+    --first-text-color: #212121;
+    --second-text-color: #757575;
+    --third-text-color:#FFF0CA;
+
+    --mail-text-color: rgba(255, 255, 255, 0.6);
+    --social-icon-color: rgba(255, 255, 255, 0.1);
+    --first-button-color: #EFD372;
+    --second-button-color:    #EAFDFA;
+
+    --accent-color: #EFD372;
+    --bg-color: #18756B;
+    --bg-color-2: #f5f4fa;
+    --social-icon-color: #18756B;
+    --icon-first-color: #afb1b8;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  h1 {
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      line-height: 1.36;
+      width: 696px;
+      height: 120px;
+      left: 452px;
+    }
+    font-family: "Inconsolata", monospace;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: left;
+    width: 360px;
+    // height: 84px;
+    // left: 60px;
+  }
+  p{
+    font-family: "Inconsolata", monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  button {
+    cursor: pointer;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  body {
+    font-family: Roboto;
+    font-style: normal;
+  }
+  
+  .list {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  

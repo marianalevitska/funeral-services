@@ -1,0 +1,133 @@
+// * Blog post */
+.blog-post{
+    padding-bottom: 5rem;
+}
+
+.blog-post-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-block: 2.5rem;
+}
+
+.blog-post-title{
+    font-size: clamp(3rem, 5vw, 6rem); 
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.blog-post-data .article-data{
+    margin-bottom: 30px;
+}
+
+.blog-post-data img{
+    height: var(--item-min-height-sm);
+    object-fit: cover;
+    object-position: center 10%;
+}
+
+.blog-post-container .container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 90rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: var(--secondary-background-color);
+    padding: 2.5rem;
+}
+
+.quote p{
+    color: #fff;
+    font-style: italic;
+}
+
+.quote span{
+    font-size: 5px;
+    color: var(--accent-color);
+}
+
+// .author{
+//     margin-top: 20px;
+    
+//     background-color: var(--secondary-background-color);
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: flex-start;
+//     flex-direction: row;
+
+// }
+
+// .author-image-box{
+//     width: 40%;
+// }
+
+// .author-about{
+//     padding: 1.5rem;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 1rem;
+// }
+
+// .author-name{
+//     color: var(--light-color);
+//     font-weight: 400;
+// }
+
+// .author-about p{
+//     max-width: 50rem;
+//     margin-bottom: 1rem;
+// }
+
+// .author-about .social-media{
+//     margin-top: auto;
+//     margin-bottom: 0;
+// }
+
+@media screen and (min-width: 700px) {
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .blog-post-data img{
+        height: var(--item-min-height-md);;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu{
+        position: static;
+        width: initial;
+        padding: initial;
+        background-color: transparent;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .menu > .list{
+        flex-direction: row;
+    }
+
+    .screen-lg-hidden{
+        display: none;
+    }
+
+    .screen-sm-hidden{
+        display: block;
+    }
+
+    .sign-up-btn{
+        padding: 4px;
+    }
+
+    /* Fancy button animation effect */
+
+}
