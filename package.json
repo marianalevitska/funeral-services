@@ -2,22 +2,23 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://marianalevitska.github.io/funeral-services/",
   "scripts": {
     "start": "index.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
-    "url": "https://marianalevitska.github.io/blog/"
+    "url": "https://marianalevitska.github.io/funeral-services/"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://marianalevitska.github.io/funeral-services/"
   },
   "dependencies": {
+    "dist": "^0.1.2",
     "modern-normalize": "^1.1.0",
     "sass": "^1.57.1"
   },
