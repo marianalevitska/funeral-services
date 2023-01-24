@@ -1,4 +1,31 @@
 /* Style the video: 100% width and height to cover the entire window */
+h1 {
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      line-height: 1.36;
+      width: 696px;
+      height: 120px;
+      left: 452px;
+    }
+    font-family: "Inconsolata", monospace;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--third-text-color);
+    width: 360px;
+  
+    // height: 84px;
+    // left: 60px;
+  }
+  p{
+    font-family: "Inconsolata", monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
 #myVideo {
     position: relative;
     right: 0;
@@ -9,16 +36,22 @@
   
   .home-block{
     position: relative;
-  }
+}
+
   /* Add some content at the bottom of the video/page */
   .home-block_content {
     position: absolute;
     bottom: 0;
-    
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(154, 187, 203, 0.186);
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
     height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
   }
   
+

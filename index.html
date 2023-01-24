@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Raleway:wght@700&display=swap"
@@ -59,7 +59,7 @@
             </svg>
           </button>
           <div class="buy-now">
-            <button type="button" class="buy-now__btn" data-modal-open>Buy now</button>
+            <button type="button" class="buy-now__btn" data-modal-open>Замовити зараз</button>
             <svg class="buy-now__icon" width="6" height="10">
               <use href="images/icons.svg#icon-arrow-right"></use>
             </svg>
@@ -98,7 +98,7 @@
         </ul>
       </div>
     </header>
-    <section id="home" class="home-block" >
+    <section id="home" class=" home-block" >
 <!-- The video -->
 <video autoplay muted loop id="myVideo" class="home-block_video">
     <source src="./images/bg-birds-2.mp4" type="video/mp4">
@@ -109,11 +109,95 @@
     <h1 class="home-block_title">Превезення померлих</h1>
     <p class="home-block_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, laboriosam voluptas quibusdam iste doloremque quod necessitatibus, nesciunt, quasi quae laudantium repudiandae expedita. Facilis modi unde harum minima, iusto aliquam magni.</p>
     <!-- Use a button to pause/play the video with JavaScript -->
-    
+    <button         
+        type="button" 
+        class="main-title__btn" data-modal-open><a href="">Замовити послугу</a></button>
   </div>
     </section>
-    <section id="about">
+    <section id="about" class="container about-block">
+<div class="about-block_section">
 
+</div>
     </section>
+
+
+    <section class="services ">
+        <div class="services_head">
+            <h2>Послуги, які можуть вас зацікавити</h2>
+            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque optio officia in”</p>
+        </div>
+        <div class="services_block">
+
+            <div class="services_block-item">
+                <a href="#" class="card-link">
+                    <img src="images/car.jpg" alt="none" 
+                    width="270px"
+                    height="250px">
+                    <p class="services_block-item-name">Ритуальні перевезення</p>
+
+                    <p class="seeMore">Замовити послугу></p>
+                </a>
+            </div>
+
+            <div class="services_block-item">
+                <a href="#">  
+                    <img src="images/wreath_2.jpg" alt="none" 
+                    width="270px"
+                    height="250px">
+                    <p class="services_block-item-name">Організація похорону</p>
+
+                    <p class="seeMore">Замовити послугу></p>
+                </a>
+            </div>
+
+            <div class="services_block-item">
+                <a href="#">
+                    <img src="images/coffin.jpg" alt="none" 
+                    width="270px"
+                    height="250px">
+                    <p class="services_block-item-name">Coffin</p>
+
+                    <p class="seeMore">Замовити послугу ></p>
+                </a>
+            </div>
+
+            <div class="services_block-item">
+                <a href="#">
+                    <img src="images/wreath_3.jpg" alt="none" 
+                    width="270px"
+                    height="250px">
+                    <p class="services_block-item-name">Lorem ipsum dolor sit ></p>
+                    <p class="seeMore">Замовити послугу></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer--wrap">
+            <p class="footer__text">
+              <span>© 2023 | Всі права захищено |</span> Розроблено
+              <!-- <svg
+                class="footer__icon"
+                width="14"
+                height="13"
+              >
+                <use href="./src/images/icons.svg#icon-like"></use>
+       
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                width="16"
+                height="15"
+                class="footer__icon">
+                    <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6a8 8 0 0 0 11.955 6.956C21.474 18.03 17.2 22 12 22 6.477 22 2 17.523 2 12c0-5.2 3.97-9.474 9.044-9.955A7.963 7.963 0 0 0 10 6zm-6 6a8 8 0 0 0 8 8 8.006 8.006 0 0 0 6.957-4.045c-.316.03-.636.045-.957.045-5.523 0-10-4.477-10-10 0-.321.015-.64.045-.957A8.006 8.006 0 0 0 4 12zm14.164-9.709L19 2.5v1l-.836.209a2 2 0 0 0-1.455 1.455L16.5 6h-1l-.209-.836a2 2 0 0 0-1.455-1.455L13 3.5v-1l.836-.209A2 2 0 0 0 15.29.836L15.5 0h1l.209.836a2 2 0 0 0 1.455 1.455zm5 5L24 7.5v1l-.836.209a2 2 0 0 0-1.455 1.455L21.5 11h-1l-.209-.836a2 2 0 0 0-1.455-1.455L18 8.5v-1l.836-.209a2 2 0 0 0 1.455-1.455L20.5 5h1l.209.836a2 2 0 0 0 1.455 1.455z" fill="#000"/>
+                </svg>
+                <button class="footer__btn">Levitska Prod.</button>
+            </p>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>

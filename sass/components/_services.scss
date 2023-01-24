@@ -21,7 +21,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/image_3.png");
+    background-image: linear-gradient(
+        rgba(139, 207, 228, 0.4),
+        rgba(115, 184, 197, 0.4)
+      ), url("../images/candy_2.jpg");
 }
 
 .services_head h2{

@@ -43,13 +43,13 @@
     top: 430px;
     margin-top: 30px;
   }
-  background-color: var(--accent-color);
+  background-color: var(--second-button-color);
   font-family: "Inconsolata", monospace;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--third-text-color);
+  color: #000;
   margin-top: 40px;
   width: 200px;
   height: 50px;
@@ -69,7 +69,8 @@ button {
   &:active,
   &:hover {
     cursor: pointer;
-    color:var(--first-text-color);
+    color:#fff;
+    background-color: var(--accent-color);
   }
 }
 
