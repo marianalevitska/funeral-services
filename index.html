@@ -15,7 +15,139 @@
    <link rel="stylesheet" href="./sass/main.css">
 </head>
 <body>
-    <header>
+    <div class="background">
+        <header class="header" id="home">
+          <div class="container">
+            <div class="menu__flex">
+              <a href="" class="logo__link"> <img src="images/logo.png" alt="" class="logo__link" /></a>
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link nav__link--curent">Головна</a></li>
+                  <li class="nav__item"><a href="#advantages" class="nav__link">Про нас</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">Чим ми займаємось</a></li>
+                  <li class="nav__item"><a href="#products" class="nav__link">Our products</a></li>
+                  <li class="nav__item"><a href="#contacts" class="nav__link">Контакти</a></li>
+                </ul>
+              </nav>
+              <button type="button" class="menu__btn js-open-menu">
+                <svg class="menu__icon" width="20" height="12">
+                  <use href="images/icons.svg#icon-burger"></use>
+                </svg>
+              </button>
+              <div class="buy-now">
+                <button type="button" class="buy-now__btn" data-modal-open>Buy now</button>
+                <!-- <svg class="buy-now__icon" width="6" height="10">
+                  <use href="images/icons.svg#icon-arrow-right"></use>
+                </svg> -->
+                <!-- <img class="buy-now__icon" 
+                width="6" 
+                height="10"
+                src="images/icons.svg#icon-arrow-right" alt="svg arrow">
+              </div> -->
+              <svg 
+              class="buy-now__icon" width="6" height="10"
+              id="icon-arrow-right" viewBox="0 0 22 32">
+                <path fill="currentColor" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.321 3.2l14.974 12.8-14.974 12.8"></path>
+            </svg>
+            </div>
+          </div>
+          <div class="mob-menu js-menu-container">
+            <button
+              type="button"
+              class="mob-menu__close-btn js-close-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <!-- <svg class="mob-menu__close-icon" aria-label="Переключатель мобильного меню">
+                <use href="images/icons.svg#icon-icon-close"></use>
+              </svg>
+             -->
+
+             <svg 
+             class="mob-menu__close-icon" aria-label="mobile menu switcher"
+             id="icon-icon-close" viewBox="0 0 32 32">
+                <path d="M2.519 2l26.963 28"></path>
+                <path d="M2 29.481l28-26.963"></path>
+                </svg>
+            </button>
+            <div class="buy-now buy-now--mob">
+              <button type="button" class="buy-now__btn buy-now__btn--mob" data--mob-modal-open>
+                Buy now
+              </button>
+              <!-- <svg class="buy-now__icon buy-now__icon--mob" width="6" height="10">
+                <use href="images/icons.svg#icon-arrow-right"></use>
+              </svg>
+             -->
+             
+             <object data="images/icons.svg#icon-icon-close" type="image/svg+xml"></object>
+            </div>
+            <ul class="mob-menu__list">
+              <li class="mob-menu__item">
+                <a href="#home" class="mob-menu__link mob-menu__link--curent">Home</a>
+              </li>
+              <li class="mob-menu__item"><a href="#advantages" class="mob-menu__link">About us</a></li>
+              <li class="mob-menu__item"><a href="#about" class="mob-menu__link">How it’s made?</a></li>
+              <li class="mob-menu__item">
+                <a href="#products" class="mob-menu__link">Our products</a>
+              </li>
+              <li class="mob-menu__item"><a href="#contacts" class="mob-menu__link">Contact</a></li>
+            </ul>
+          </div>
+        </header>
+        <section class="hero">
+          <div class="container">
+            <div class="flex-hero">
+              <div class="flex-hero__left">
+                <h1 class="hero__title">
+                  ice cream <br />
+                  made with <br /><span class="hero__passion">passion</span>
+                </h1>
+                <ul class="hero__list">
+                  <li class="hero__item">
+                    <a href="#products" class="hero__link hero__link--product">Products</a>
+                  </li>
+                  <li class="hero__item">
+                    <a href="#about" class="hero__link hero__link--made">How it’s made?</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex-hero__right">
+                <ul class="hero-right__list">
+                  <li class="hero-right__item">
+                    <span class="hero-right__number">16</span>
+                    <p class="hero-right__text">cafes</p>
+                  </li>
+                  <li class="hero-right__item">
+                    <span class="hero-right__number">23</span>
+                    <p class="hero-right__text">food trucks</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="hero-description">
+              <p class="hero-description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et
+              </p>
+              <button type="button" class="hero-description__btn">
+                <!-- <svg class="hero-description__icon">
+                 <use href="images/icons.svg#icon-arrow-right-new"></use>
+                </svg> -->
+
+                <svg 
+                class="hero-description__icon"
+                id="icon-arrow-right-new" viewBox="0 0 32 32">
+                    <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+                    </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      
+      
+    <!-- <header>
         <div class="container header__container">
             <a href="index.html" class="header__logo link logo-span--color-dark"><span class="web">Sport</span>Blog</a>
                 <nav class="header__navigation">
@@ -71,9 +203,6 @@
                 <li class="mob-menu-social__item">
                     <a class="mob-menu-social__link link" >Instagram</a>
                     <div class="line"></div>
-                    <!-- <svg class="mob-menu-social__icon" width="1px" height="16px">
-                        <use href="./images/icons.svg#icon-Line"></use>
-                    </svg> -->
                 </li>
                 <li class="mob-menu-social__item">
                     <a class="mob-menu-social__link link">Twitter</a>
@@ -89,7 +218,7 @@
         </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
         <!-- <section class="first">
             <div class="first-container">

@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://github.com/marianalevitska/funeral-services",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "index.html",
     "build": "parcel build src/*.html --public-url /funeral-services/"
   },
   "repository": {
@@ -22,7 +22,8 @@
     "firebase": "^9.8.3",
     "handlebars": "^4.7.7",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.5"
+    "notiflix": "^3.2.5",
+    "svgo": "^2.8.0"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.6.0",
