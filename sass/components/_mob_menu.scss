@@ -1,0 +1,90 @@
+
+.mob-menu {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 60%;
+    height: 100vh;
+    padding-top: 60px;
+    background-color: #e17992;
+    z-index: 10;
+    transform: translateX(100%);
+    transition: transform var(--time) var(--cube);
+    @media screen and (min-width: 768px) {
+      width: 35%;
+    }
+  }
+  
+  .mob-menu.is-open {
+    transform: translateX(0);
+  }
+  
+  .mob-menu__close-btn {
+    position: absolute;
+    top: 23px;
+    right: 28px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      fill: var(--hover-icon-bg-color);
+    }
+  }
+  
+  .mob-menu__close-icon {
+    width: 24px;
+    height: 16px;
+    stroke: #ffffff;
+    &:hover,
+    &:focus {
+      stroke: red;
+    }
+  }
+  
+  .buy-now--mob {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 209px;
+    height: 44px;
+  }
+  
+  .buy-now__btn--mob {
+    display: block;
+    padding: 16px 83px 16px 60px;
+  }
+  
+  .buy-now__icon--mob {
+    position: absolute;
+    display: block;
+  }
+  
+  .mob-menu__list {
+    margin-top: 28px;
+  }
+  
+  .mob-menu__item {
+    min-height: 42px;
+    padding-left: 21px;
+    border: 1px solid #e18298;
+  }
+  
+  .mob-menu__link {
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+    display: flex;
+    align-items: center;
+    color: var(--main-text-color);
+    &--curent {
+      color: var(--main-title-color);
+    }
+  }
