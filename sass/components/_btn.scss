@@ -41,29 +41,33 @@
   @media screen and (min-width: 1200px) {
     left: 700px;
     top: 430px;
-    margin-top: 30px;
+    margin-top: 70px;
+  }
+  @media screen and (min-width: 1px)and ( max-width: 768px) {
+align-self: center;
   }
   background-color: var(--second-button-color);
   font-family: "Inconsolata", monospace;
-  font-weight: 700;
-  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #000;
-  margin-top: 40px;
+  margin-top: 70px;
   width: 200px;
   height: 50px;
   left: 140px;
   top: 292px;
-  align-self: center;
   // left: 700px;
   // top: 430px;
-  border-radius: 4px;
   text-align: center;
-  letter-spacing: 0.03em;
   border: none;
-  margin-top: 30px;
   align-self: start;
+
+    border-radius: 30px;
+    border: none;
+    color: var(--main-title-color);
+    background-color: var(--second-btn-color);
+
+  
 }
 button {
   &:active,

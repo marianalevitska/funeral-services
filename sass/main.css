@@ -574,6 +574,8 @@
   --bg-color-2: #f5f4fa;
   --social-icon-color: #18756B;
   --icon-first-color: #afb1b8;
+  --main-title-color:
+  #907e82 ;
   --second-bg-color: #AD9E8C;
   --main-btn-color:
   #00AD95 ;
@@ -1145,29 +1147,32 @@ textarea {
 .main-title__btn {
   background-color: var(--second-button-color);
   font-family: "Inconsolata", monospace;
-  font-weight: 700;
-  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #000;
-  margin-top: 40px;
+  margin-top: 70px;
   width: 200px;
   height: 50px;
   left: 140px;
   top: 292px;
-  align-self: center;
-  border-radius: 4px;
   text-align: center;
-  letter-spacing: 0.03em;
   border: none;
-  margin-top: 30px;
   align-self: start;
+  border-radius: 30px;
+  border: none;
+  color: var(--main-title-color);
+  background-color: var(--second-btn-color);
 }
 @media screen and (min-width: 1200px) {
   .main-title__btn {
     left: 700px;
     top: 430px;
-    margin-top: 30px;
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  .main-title__btn {
+    align-self: center;
   }
 }
 
@@ -1678,18 +1683,22 @@ i {
 
 /* Style the video: 100% width and height to cover the entire window */
 h1 {
+  font-weight: normal;
+  text-align: center;
   font-family: "Inconsolata", monospace;
-  font-size: 26px;
-  font-weight: 900;
+  font-weight: bold;
+  font-size: 37px;
   line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: left;
   color: var(--third-text-color);
-  width: 360px;
+  width: 696px;
+  height: 120px;
+  left: 452px;
 }
 @media screen and (min-width: 1200px) {
   h1 {
+    text-align: start;
     font-size: 44px;
     line-height: 1.36;
     width: 696px;
@@ -1721,15 +1730,6 @@ p {
 
 /* Add some content at the bottom of the video/page */
 .home-block_content {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 100%;
-  height: 700px;
   position: absolute;
   bottom: 0;
   background: rgba(154, 187, 203, 0.186);
@@ -1742,12 +1742,6 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-}
-@media screen and (min-width: 1200px) {
-  .home-block_content {
-    align-items: center;
-    padding-left: 40px;
-  }
 }
 
 .mob-menu {
