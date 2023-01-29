@@ -1,5 +1,5 @@
 /* Style the video: 100% width and height to cover the entire window */
-h1 {
+.home-block_title {
   font-weight: normal;
   text-align: center;
   @media screen and (min-width: 1200px) {
@@ -24,12 +24,12 @@ h1 {
     // height: 84px;
     // left: 60px;
   }
-  p{
-    font-family: "Inconsolata", monospace;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-  }
+  // p{
+  //   font-family: "Inconsolata", monospace;
+  //   font-size: 16px;
+  //   font-weight: bold;
+  //   color: #fff;
+  // }
 #myVideo {
     position: relative;
     right: 0;

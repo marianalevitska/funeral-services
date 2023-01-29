@@ -1,0 +1,45 @@
+.about-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+padding: 20px;
+    &_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+
+        &_title {
+            @media screen and (min-width: 1200px) {
+              font-size: 44px;
+              line-height: 1.36;
+              width: 696px;
+              height: 120px;
+              left: 452px;
+            }
+            font-family: "Inconsolata", monospace;
+            font-size: 26px;
+            font-weight: 900;
+            line-height: 1.61;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--third-text-color);
+            width: 360px;
+          
+            // height: 84px;
+            // left: 60px;
+          }
+         &_text{
+            font-family: "Inconsolata", monospace;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            
+          }
+    }
+}
+
