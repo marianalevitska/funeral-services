@@ -17,8 +17,8 @@
 <body>
 
   
-    <header>
-        <he class="container header__container">
+
+        <header class="container header__container">
             <a href="index.html" class="header__logo link logo-span--color-dark"><img src="./images/logo.png" alt="logo"></a>
                 <nav class="header__navigation">
                     <ul class="header-list list">
@@ -61,9 +61,9 @@
             
           </button>
           <div class="buy-now">
-            <button type="button" class="buy-now__btn" data-modal-open>Замовити зараз</button>
+            <button type="button" class="buy-now__btn">Замовити зараз</button>
             <svg class="buy-now__icon" width="6" height="10">
-              <use href="images/icons.svg#icon-arrow-right"></use>
+              <use href="images/icons.svg#icon-arrow-top"></use>
             </svg>
           </div>
         </div>
@@ -75,7 +75,7 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg class="mob-menu__close-icon" aria-label="Переключатель мобильного меню">
+          <svg class="mob-menu__close-icon" aria-label="mobile menu">
             <use href="./images/icons.svg#icon-icon-close"></use>
           </svg>
         </button>
@@ -84,12 +84,12 @@
             Buy now
           </button>
           <svg class="buy-now__icon buy-now__icon--mob" width="6" height="10">
-            <use href="images/icons.svg#icon-arrow-right"></use>
+            <use href="images/icons.svg#icon-arrow-top"></use>
           </svg>
         </div>
         <ul class="mob-menu__list">
           <li class="mob-menu__item">
-            <a href="#home" class="mob-menu__link mob-menu__link--curent">Головна</a>
+            <a href="#home" class="mob-menu__link mob-menu__link">Головна</a>
           </li>
           <li class="mob-menu__item"><a href="#about" class="mob-menu__link">Про нас</a></li>
           <li class="mob-menu__item">
@@ -99,7 +99,7 @@
         </ul>
       </div>
     </header>
-    <section id="home" class=" home-block" >
+    <section id="home" class=" home-block container"  >
 <!-- The video -->
 <video autoplay muted loop id="myVideo" class="home-block_video">
     <source src="./images/bg-birds-2.mp4" type="video/mp4">
@@ -122,7 +122,7 @@
 </div>
     </section>
     <section class="services " id="offers">
-        <div class="services_head">
+        <div class="services_head container">
             <h2>Послуги, які можуть вас зацікавити</h2>
         </div>
         <div class="services_block">

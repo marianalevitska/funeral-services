@@ -6,7 +6,7 @@
     width: 60%;
     height: 100vh;
     padding-top: 60px;
-    background-color: #e17992;
+    background-color: #9ABBCB;
     z-index: 10;
     transform: translateX(100%);
     transition: transform var(--time) var(--cube);
@@ -40,7 +40,7 @@
     stroke: #ffffff;
     &:hover,
     &:focus {
-      stroke: red;
+      stroke: #5a818764;
     }
   }
   
@@ -70,7 +70,8 @@
   .mob-menu__item {
     min-height: 42px;
     padding-left: 21px;
-    border: 1px solid #e18298;
+    // border: 1px solid #00AD95;
+    border: none;
   }
   
   .mob-menu__link {
@@ -86,5 +87,9 @@
     color: var(--main-text-color);
     &--curent {
       color: var(--main-title-color);
+    }
+    &:hover,
+    &:focus{
+      color: var(--accent-color);
     }
   }
