@@ -55,14 +55,14 @@
             </a>
         </div> -->
         <button type="button" class="menu__btn js-open-menu">
-            <svg class="menu__icon" width="20" height="12">
+            <svg class="menu__icon" width="24" height="24">
               <use href="images/icons.svg#icon-burger"></use>
             </svg>
             
           </button>
           <div class="buy-now">
-            <button type="button" class="buy-now__btn">Замовити зараз</button>
-            <svg class="buy-now__icon" width="6" height="10">
+            <button type="button" class="buy-now__btn"><a href="#contacts">Замовити зараз</a></button>
+            <svg class="buy-now__icon" width="15" height="15">
               <use href="images/icons.svg#icon-arrow-top"></use>
             </svg>
           </div>
@@ -80,10 +80,10 @@
           </svg>
         </button>
         <div class="buy-now buy-now--mob">
-          <button type="button" class="buy-now__btn buy-now__btn--mob" data--mob-modal-open>
-            Buy now
+          <button type="button" class="buy-now__btn buy-now__btn--mob" src="#contacts" data--mob-modal-open>
+            Замовити послугу
           </button>
-          <svg class="buy-now__icon buy-now__icon--mob" width="6" height="10">
+          <svg class="buy-now__icon buy-now__icon--mob" width="15" height="15">
             <use href="images/icons.svg#icon-arrow-top"></use>
           </svg>
         </div>
@@ -112,7 +112,7 @@
     <!-- Use a button to pause/play the video with JavaScript -->
     <button         
         type="button" 
-        class="main-title__btn" data-modal-open><a href="">Замовити послугу</a></button>
+        class="main-title__btn" data-modal-open><a href="#contacts">Замовити послугу</a></button>
   </div>
     </section>
     <section id="about" class="container about-block">
@@ -128,7 +128,7 @@
         <div class="services_block">
 
             <div class="services_block-item">
-                <a href="#" class="card-link">
+                <a href="#contacts" class="card-link">
                     <img src="images/car.jpg" alt="none" 
                     width="270px"
                     height="250px">
@@ -139,7 +139,7 @@
             </div>
 
             <div class="services_block-item">
-                <a href="#">  
+                <a href="#contacts">  
                     <img src="images/wreath_2.jpg" alt="none" 
                     width="270px"
                     height="250px">
@@ -150,26 +150,47 @@
             </div>
 
             <div class="services_block-item">
-                <a href="#">
+                <a href="#contacts">
                     <img src="images/coffin.jpg" alt="none" 
                     width="270px"
                     height="250px">
-                    <p class="services_block-item-name">Coffin</p>
+                    <p class="services_block-item-name">Гроби</p>
 
                     <p class="seeMore">Замовити послугу ></p>
                 </a>
             </div>
 
             <div class="services_block-item">
-                <a href="#">
+                <a href="#contacts">
                     <img src="images/wreath_3.jpg" alt="none" 
                     width="270px"
                     height="250px">
-                    <p class="services_block-item-name">Lorem ipsum dolor sit ></p>
+                    <p class="services_block-item-name">Похоронні вінки</p>
                     <p class="seeMore">Замовити послугу></p>
                 </a>
             </div>
         </div>
+    </section>
+    <section class="container contacts_block" id="contacts">
+<div class="contacts_block_box">
+  <h1 class="contacts_block_box-title">Працюємо 24/7 без перерви та вихідних</h1>
+              <div class="contacts_block_box-connect">
+            <a href='mailto:noreplay@gmail.com' class="connect__contacts link" >
+                <svg class="connect__social-icon" width="25px" height="25px">
+                    <use href="./images/icons.svg#icon-mail"></use>
+    
+                </svg>
+                noreplay@gmail.com</a>
+       
+            <a href="tel:+380686751711" class="connect__contacts link" >
+                <svg class="connect__social-icon" 
+                width="25px" 
+                height="25px">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>   +38(068)675-17-11
+            </a>
+        </div> 
+</div>
     </section>
 
 

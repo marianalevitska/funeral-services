@@ -1400,8 +1400,7 @@ i {
 .services_block {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 135px;
+  margin: 135px 135px 0 135px;
 }
 
 .services_block-item {
@@ -1674,4 +1673,103 @@ i {
 }
 .mob-menu__link:hover, .mob-menu__link:focus {
   color: var(--accent-color);
+}
+
+.contacts_block {
+  display: flex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(51, 109, 111, 0.474);
+}
+@media screen and (min-width: 1200px) {
+  .contacts_block {
+    align-items: center;
+    padding-left: 40px;
+  }
+}
+.contacts_block_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.contacts_block_box-title {
+  font-weight: normal;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+  width: 100%;
+  left: 452px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .contacts_block_box-title {
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+    width: 100%;
+    left: 452px;
+  }
+}
+.contacts_block_box-connect {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect__contacts {
+  font-weight: normal;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  border-bottom: 1px solid rgb(249, 249, 249);
+  color: var(--second-button-color);
+  width: 100%;
+  margin-bottom: 20px;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .connect__contacts {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+  }
+}
+.connect__contacts:hover, .connect__contacts:focus {
+  color: var(--accent-color);
+}
+.connect__contacts:hover .connect__social-icon, .connect__contacts:focus .connect__social-icon {
+  fill: var(--accent-color);
+}
+.connect__contacts:last-child {
+  margin-right: 0;
+}
+
+.connect__social-icon {
+  fill: var(--second-button-color);
+  margin-right: 10px;
+  align-self: center;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */

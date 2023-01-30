@@ -49,9 +49,8 @@
 <symbol id="icon-arrow-contacts" viewBox="0 0 19 32">
 <path fill="currentColor" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l11.553 12.8-11.553 12.8"></path>
 </symbol>
-<symbol id="icon-arrow-top" width="24px" height="24px" viewBox="0 0 24 24" fill="grey" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#030D45"/>
-</symbol>
+
+<symbol id="icon-arrow-top" width="15px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.919 3.418C6.102 3.236 6.399 3.236 6.582 3.418L10.332 7.168C10.515 7.351 10.515 7.649 10.332 7.832L6.582 11.582C6.399 11.764 6.102 11.764 5.919 11.582C5.736 11.399 5.736 11.101 5.919 10.918L9.337 7.5L5.919 4.082C5.736 3.899 5.736 3.601 5.919 3.418Z" fill="#030D45"/></і>
 
 </defs>
 </svg>
