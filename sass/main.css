@@ -1568,6 +1568,33 @@ i {
 .home-block {
   position: relative;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  .home-block {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/bg-birds-2-1.gif);
+    padding-top: 218px;
+    padding-bottom: 218px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-block {
+    background-image: url(../images/bg-birds-2-1.gif);
+    padding-top: 218px;
+    padding-bottom: 218px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home-block {
+    background-image: url(../images/bg-birds-2-1.gif);
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
 }
 
 /* Add some content at the bottom of the video/page */
