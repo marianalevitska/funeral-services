@@ -11,21 +11,32 @@ background-position: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      background-image:url(../images/bg-birds-2-1.gif);
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/bg-birds-2-1.gif);
     
-    padding-top: 218px;
-    padding-bottom: 218px;
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 
   @media screen and (min-width: 768px) {
-    background-image:url(../images/bg-birds-2-1.gif);
-    
-    padding-top: 218px;
-    padding-bottom: 218px;
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/sky.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
   @media screen and (min-width: 1200px) {
 
-    background-image:url(../images/bg-birds-2-1.gif);
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/sky.jpg);
 
     padding-top: 200px;
     padding-bottom: 200px;
