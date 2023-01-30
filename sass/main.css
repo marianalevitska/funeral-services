@@ -912,14 +912,14 @@ i {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #000;
-  margin-top: 70px;
+  margin-top: 30px;
   width: 200px;
   height: 50px;
   left: 140px;
   top: 292px;
   text-align: center;
   border: none;
-  align-self: start;
+  align-self: center;
   border-radius: 30px;
   border: none;
   color: var(--main-title-color);
@@ -930,11 +930,20 @@ i {
     left: 700px;
     top: 430px;
     margin-top: 70px;
+    align-self: start;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .main-title__btn {
+    align-self: start;
   }
 }
 @media screen and (min-width: 1px) and (max-width: 768px) {
   .main-title__btn {
     align-self: center;
+    margin-top: 10px;
+    left: 700px;
+    top: 330px;
   }
 }
 
@@ -1391,7 +1400,6 @@ i {
 .services_block {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin: 135px;
 }
 
@@ -1448,7 +1456,6 @@ i {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 120px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1519,13 +1526,11 @@ i {
   text-align: center;
   font-family: "Inconsolata", monospace;
   font-weight: bold;
-  font-size: 37px;
   line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
   width: 100%;
-  height: 120px;
   left: 452px;
 }
 @media screen and (min-width: 768px) {
@@ -1534,12 +1539,12 @@ i {
     font-size: 44px;
     line-height: 1.36;
     width: 100%;
-    height: 120px;
     left: 452px;
   }
 }
 
 #myVideo {
+  position: relative;
   right: 0;
   bottom: 0;
   width: 100%;
