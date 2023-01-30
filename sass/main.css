@@ -1542,6 +1542,12 @@ i {
     left: 452px;
   }
 }
+@media screen and (max-width: 768px) {
+  .home-block_title {
+    font-size: 20px;
+    width: 100%;
+  }
+}
 
 #myVideo {
   position: relative;

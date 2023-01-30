@@ -10,6 +10,11 @@
       // height: 120px;
       left: 452px;
     }
+    @media screen and (max-width: 768px) {
+
+      font-size: 20px;
+      width: 100%;
+    }
     font-family: "Inconsolata", monospace;
     font-weight: bold;
     // font-size: 30px;
