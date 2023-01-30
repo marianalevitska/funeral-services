@@ -1508,6 +1508,7 @@ i {
   text-align: center;
   color: var(--third-text-color);
   width: 360px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .about-block_section_title {
