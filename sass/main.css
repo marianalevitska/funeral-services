@@ -387,12 +387,15 @@
 
 .menu__btn {
   position: relative;
-  width: 20px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   margin-right: 0px;
   margin-left: auto;
   background-color: transparent;
   border: none;
+}
+.menu__btn:hover .menu__icon, .menu__btn:focus .menu__icon {
+  fill: var(--accent-color);
 }
 @media screen and (min-width: 768px) {
   .menu__btn {
@@ -1400,7 +1403,7 @@ i {
 .services_block {
   display: flex;
   align-items: center;
-  margin: 135px 135px 0 135px;
+  margin: 55px 135px 55px 135px;
 }
 
 .services_block-item {

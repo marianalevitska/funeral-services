@@ -393,12 +393,16 @@
 
 .menu__btn {
   position: relative;
-  width: 20px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   margin-right: 0px;
   margin-left: auto;
   background-color: transparent;
   border: none;
+  &:hover .menu__icon,
+  &:focus .menu__icon{
+    fill: var(--accent-color);
+  }
   @media screen and (min-width: 768px) {
     display: none;
   }
